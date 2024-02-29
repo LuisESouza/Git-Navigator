@@ -2,8 +2,8 @@
 
 ## Descrição
 
-O GitNavigator, um projeto inovador, é uma aplicação web que oferece uma experiência de navegação intuitiva e eficiente no vasto universo do GitHub. 
-Desenvolvido com foco na usabilidade, o GitNavigator permite aos usuários explorar perfis, obter informações detalhadas e acessar facilmente os repositórios de seus colegas desenvolvedores.
+O GitNavigator é uma aplicação web que oferece uma experiência de navegação intuitiva no GitHub. 
+Desenvolvido com foco na usabilidade, o GitNavigator permite aos usuários explorar perfis, obter informações e acessar facilmente os repositórios de seus colegas desenvolvedores.
 
 ### Recursos Principais
 
