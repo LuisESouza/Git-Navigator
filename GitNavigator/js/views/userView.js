@@ -7,18 +7,20 @@ export const renderUser = ({
   user,
 }) => {
   const markup = `
-        <div class="profile-header">
-          <h2 style="text-align: center;">${user}</h2>
-        <div class="name-tittle">
+  <div class="profile-header">
+    <a href="${html_url}"><img src="${avatar_url}"></a>   
+    <a href="assets/Curriculo.pdf" download="Curriculo">Curriculo</a>           
+  </div>   
 
-        </div>
-        <img src="${avatar_url}">
-        <a href="${html_url}" target="_blank">Visitar perfil</a>
-        </div>   
+<div class="profile-bio">
+  <div class="content-top">
+      <a href="${html_url}">${user}</a>
+  </div>
 
-        <div class="profile-bio">
-          <p>${bio}</p>
-        </div>
+  <div class="content-bio">
+      <p>${bio}</p>
+  </div>               
+</div>
   `;
 
   elements.profile.insertAdjacentHTML("afterbegin", markup);
