@@ -46,20 +46,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 /*Profile*/
-.profile{  
+.profile {
     background-color: var(--bg-color-profile);
     border-radius: 10px;
-
     display: flex;
     flex-direction: row;
-
     padding: 20px;
     gap: 20px;
-
-    box-shadow: 2px 2px #0B1B2B ;
+    box-shadow: 2px 2px #0B1B2B;
 }
 
-.profile-header img{
+.profile-header img {
     width: 100%;
     max-width: 200px;
     aspect-ratio: 5/5;
@@ -67,31 +64,39 @@ body::-webkit-scrollbar-thumb {
     border-radius: 10%;
 }
 
-.content-top a{
-    /*conteudo dentro do perfil*/
+.content-top a {
     text-decoration: none;
     color: var(--bg-color-font);
 }
 
 .content-top {
-    /*Nome do perfil*/
     text-align: start;
 }
 
-.profile-bio {
-    /*Biografia do perfil*/
+.profile-info-bio {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: start;  
-    height: 90%;
+    height: auto; /* Definido como auto */
     width: 100%;
 }
 
-.content-bio{
+.content-bio {
     margin-top: 10px;
     margin-left: 15px;
     width: 90%;
+}
+
+.profile-info-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.profile-info-list li {
+    margin-left: 5px;
+    list-style-type: none;
 }
 
 /*FORM*/

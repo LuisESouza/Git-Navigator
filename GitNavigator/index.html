@@ -8,14 +8,37 @@
 </head>
 <body>
     <div class="img-body">
-       <img src="assets/cover.png" alt="" style="width: 100%;">
+       <img src="assets/imgTop.png">
     </div>
 
     <section class="container">
         
-        <div class="profile">
-            <!--Informacoes do Perfil-->
-        </div>
+            <div class="profile">
+                <!--Informacoes do Perfil-->
+
+                <div class="profile-header">
+                    <a href="${html_url}"><img src="${avatar_url}"></a>   
+                    <a href="assets/Curriculo.pdf" download="Curriculo">Curriculo</a>           
+                  </div>   
+                  
+                  <div class="profile-info-bio">
+                    <div class="content-top">
+                        <a href="${html_url}">${user}</a>
+                    </div>
+                  
+                    <div class="content-bio">
+                        <p>${bio}</p>
+                    </div>
+
+                    <div class="profile-info-list">
+                        <ul>
+                            <li><img src="assets/location.svg" alt=""> ${location}</li>
+                            <li><img src="assets/followers.svg" alt=""> ${followers}</li>
+                        </ul>
+                    </div>
+                  </div>
+
+            </div>
 
         <form class="container-input">
                 <label for="search" style="margin-left: 5px;">Pesquisar:</label>
@@ -27,9 +50,9 @@
             <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2" fill="white"></path>
             </svg>
             <h2>Repositorios</h2>
-
             <div class="repo-list"> 
-              <!--Repositorios-->              
+              <!--Repositorios-->    
+            </div>  
         </section>
     </section>
 
@@ -41,6 +64,7 @@
             </div>
             <div class="references">
                 <h2>Referências</h2>
+                
                 <ul>
                     <li><a href="https://github.com/IsabelRubim" target="_blank">Isabel Rubim</a></li>
                     <li><a href="https://developer.mozilla.org/pt-BR/" target="_blank">Mozilla Developer</a></li>    
